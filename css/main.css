@@ -146,11 +146,11 @@ body {
     .experience, .Projects-and-education, .hire-me { 
         /*justify-content: center;
         align-items: center;*/
-        padding:20px 70px;   
+        padding:10px 70px;   
     }
     .experience-content h1 {
         padding: 20px 0 10px 0;
-        margin: 30px 0 0 0;
+       /* margin: 10px 0 0 0;*/
         
     }
     .experience-content h1, .Projects-and-education h1 {
