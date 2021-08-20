@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    line-height:1.3;
+   
+    }
+    .home-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background: rgb(255, 254, 254);
+        padding: 15px 0 15px 0;
+    }
+    .home-nav-links{
+        padding: 0 0 0 0px;
+    }
+   
+    .home-nav-links ul {
+        display: flex;
+        list-style-type: none;
+    }
+    .home-nav-links ul li {
+       padding: 0 0 0 50px;
+    }
+    .home-nav-links ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: blue;
+    }
+    .home-nav-links ul li a:hover {
+        
+        color: red;
+        }
+    .bg-img {
+        background-image: url("../css/img/portfolio-bg-img.jpeg");
+        filter: brightness(1);
+       /* height: 50vh;*/
+        /*background-color: #cccccc; /* Used if the image is unavailable */
+        height: 250px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container*/
+    }
+  nav {
+        padding: 40px 0 60px 0;
+    }
+    .home-nav-logo h1 {
+       color: darkblue;
+       font-size: 2em;
+    }
+    .about {
+        display: flex;
+        padding: 20px 40px 0 10px;
+    }
+    .about-img, .about-content {
+        justify-content: center;
+        align-items: center;
+    }
+    .about-img {
+        width: 40%;
+        text-align: center;
+      
+    }
+    .about-content {
+        width: 70%;
+        text-align: center;
+       
+    }
+    .about-img img {
+        max-width: 600px;
+        max-height: 250px;
+        border-radius: 200px;
+    }
+    .about-img h1 {
+        color: grey;  
+    }
+    .about-img h1, .about-content-intro h1 {
+        font-size: 30px;
+    }
+    .about-img h2 {
+        color: #0000ff;
+        font-size: 20px;
+    }
+    .about-content-skills-heading h2 {
+     
+        padding:10px 0 0 0;
+    }
+    .about-content-intro h1 {
+        color: #00008b; 
+        font-size: 34px;
+    }
+    .about-content-intro h2 {
+        margin: 10px 0 0 0;
+        font-size: 25px;
+        color: blue;
+    }
+    .about-content-intro p {
+        margin: 10px 0 0 0;
+        color: #808080;
+    }
+    .about-content-contacts {
+        display: flex;
+        margin: 10px 0 0 40px;
+        justify-content: center;
+    }
+    .about-content-contacts p {
+        padding: 0 0 0 10px;
+        color: #808080;
+        color: #ffa500;
+    }
+    .about-content-skills-content {
+        display: flex;
+        justify-content: center;
+       
+     
+    }
+    .about-content-skills-content p {
+        padding: 10px 0 0 20px;
+        color: #808080;
+    }
+    .about-content-social-links h3, .about-content-skills-heading h3 {
+        color: blue;
+        margin: 10px 0 0 0;  
+    }
+    .about-content-social-links a {
+        text-decoration: none;
+        /*margin: 10px 0 0 0;  */
+        color: black;
+        padding: 10px 0 0 30px;
+        justify-content: center;
+    }
+    .about-content-social-links i {
+        font-size: 1.3em;
+    }
+    .experience, .Projects-and-education, .hire-me { 
+        /*justify-content: center;
+        align-items: center;*/
+        padding:20px 70px;   
+    }
+    .experience-content h1 {
+        padding: 20px 0 10px 0;
+        margin: 30px 0 0 0;
+        
+    }
+    .experience-content h1, .Projects-and-education h1 {
+        color:#00008b;
+        
+    }
+    .experience-content h3, .Projects-and-education h3 {
+        color:#0000ff;
+        padding: 10px 0 0 0;
+        font-size: 16px;
+    }
+    .experience-content p, .Projects-and-education p {
+        color: #808080;
+        
+    }
+    .Projects-and-education {
+        display: flex;
+    }
+    .Projects-and-education h1 {
+        text-align: center;
+        padding: 20px 0 20px 0 0;
+    }
+    .projects, .additional-skills-content-one {
+        padding: 0 20px 0 0;
+    }
+    .projects a {
+        color: #355E3B;
+       
+    }
+    .projects a:hover {
+        color: #825f87;
+        
+     }
+ 
+    .projects p {
+        color: #000000; 
+    }
+
+    .education, .additional-skills-content-two {
+        padding: 0 0 0 20px;
+    }
+    .additional-skills-content {
+        display: flex;
+        padding:20px 70px;  
+    }
+    .additional-skills h1,.brands-supported h1 {
+        text-transform: uppercase;
+        text-align: center;
+        color: #00008b;
+        padding: 20px 0 5px 0;
+    }
+    .brands-supported h1 {
+        padding: 20px 0 20px 0;
+    }
+    .additional-skills-content-one h3, .additional-skills-content-two h3 {
+        color: #0000ff;
+        text-align: center;
+        padding: 10px 0 5px 0;
+    }
+    .additional-skills-content-one p, .additional-skills-content-two p {
+        color: #808080;
+    }
+    strong {
+        color: #000000;
+    }
+    .brands-img {
+        display: flex;
+        justify-content: space-around;
+    }
+    .brands-img img {
+        max-width: 250px;
+        max-height: 100px;
+        padding: 10px;
+    }
+    .brands-img img:hover {
+        background: blue;
+    }
+    .brands-supported {
+        padding:20px 70px;
+        
+    }
+    .signup-content-form {
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        margin-top: -50px;
+    }
+    
+    .signup-heading img {
+        width: 100%;
+        height: 72vh;
+    }
+    
+    input[type=text],
+    [type=mobile],
+    [type=email],
+    [type=number],
+    #home-gender-select,
+    #service,
+    #date,
+    .signup-form textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(1, 130, 173);
+        border-radius: 10px;
+        box-sizing: border-box;
+        resize: vertical;
+        vertical-align: 1.5rem;
+    }
+    
+    .signup-form textarea {
+        resize: vertical;
+    }
+    
+    #home-subject {
+        width: 100%;
+    }
+    
+    #select,
+    #home-subject {
+        border: 1px solid rgb(1, 130, 173);
+    }
+    
+    input[type=submit] {
+        background-color: #1a9103;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: left;
+    }
+    .signup-content h2 {
+        text-align: center;
+        padding: 20px 0 20px 0;
+        color: blue;
+    }
+    .signup-heading-one h1 {
+        color: darkblue;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        padding: 20px 0 10px 0;
+        margin: -30px 0 0 0;
+    }
+    .signup-form h3 {
+        text-align: center;
+        color: blue;
+        padding: 10px 0 20px 0;
+        font-size: 28px;
+    }
+    .signup-heading {
+        padding: 65px 20px 0 0;
+        width: 50%;
+    }
+    .signup-form {
+        padding: 0 0 0 20px;
+        width: 50%;
+    }
+    .signup-heading img {
+      
+       height:80vh;
+    }
+    footer {
+        background: #007cc7;
+    }
+    .copyright {
+        display: flex;
+        justify-content: space-around;
+        padding: 30px 0;
+    }
+    .copyright p, .copyright strong, .copyright a, small {
+        color: #ffffff;
+    }
+    #hashnode {
+    max-width: 20px; 
+    max-height: 20px;
+    color: #ffffff;
+    }
+    .copyright img {
+        color: #ffffff;
+        }
+    
+
+
+
+   
+
